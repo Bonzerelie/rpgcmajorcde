@@ -123,7 +123,7 @@ function toggleDisplay(mode) {
   displayNotesBtn.classList.toggle('selected', !showDegrees);
   displayDegreesBtn.classList.toggle('selected', showDegrees);
   scaleLabel.textContent = showDegrees ? 'Diatonic Notes of the Major Scale (Ionian Mode)' : 'Diatonic Notes of the Major Scale (Ionian Mode)';
-  octaveLabel.textContent = showDegrees ? '1st, 2nd and 3rd scale degrees from one octave' : 'Notes C, D and E from one octave';
+  octaveLabel.textContent = showDegrees ? '1st, 2nd and 3rd scale degrees from one octave.' : 'Notes C, D and E from one octave.';
   playRefBtn.textContent = showDegrees ? 'Play Reference (Tonic)' : 'Play Reference (C - Tonic)';
   promptText.textContent = 'Which note was played?';
 }
