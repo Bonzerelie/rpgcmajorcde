@@ -122,7 +122,7 @@ function toggleDisplay(mode) {
   updateNoteButtonLabels();
   displayNotesBtn.classList.toggle('selected', !showDegrees);
   displayDegreesBtn.classList.toggle('selected', showDegrees);
-  scaleLabel.textContent = showDegrees ? 'Diatonic - Major Scale' : 'Diatonic - C Major Scale';
+  scaleLabel.textContent = showDegrees ? 'Diatonic Notes Of The Major Scale' : 'Diatonic - C Major Scale';
   octaveLabel.textContent = showDegrees ? '1st, 2nd and 3rd scale degrees from one octave' : '1st, 2nd and 3rd scale degrees from one octave';
   playRefBtn.textContent = showDegrees ? 'Play Reference (Tonic)' : 'Play Reference (C - Tonic)';
   promptText.textContent = 'Which note was played?';
