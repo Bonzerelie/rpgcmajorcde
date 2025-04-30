@@ -25,7 +25,7 @@ let isAnswered = false;
 let showDegrees = false;
 
 const noteMap = {
-  'C': ['c4', 'c5'],
+  'C': ['c4'],
   'D': ['d4'],
   'E': ['e4'],
 };
